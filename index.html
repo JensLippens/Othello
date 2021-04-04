@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Othello</title>
+    <link type="text/css" rel="stylesheet" href="othello.css">
+    <script src="othello.js"></script>
+</head>
+
+<body>
+    <div>
+        <canvas id="bordCanvas"></canvas><br>
+        <label for="Wit" class="score" id="WitTekst">Wit</label>
+        <label for="Wit" class="score" id="WitScore">0</label>
+        <label class="score" id="Streepje">-</label>
+        <label for="Zwart" class="score" id="ZwartScore">0</label>
+        <label for="Zwart" class="score" id="ZwartTekst">Zwart</label> <br>
+        <label for="aanZet" class="aanzet" id="AanZetTekst">Kleur aan zet:</label>&emsp;
+        <label for="aanZet" class="aanzet" id="KleurTekst">Zwart</label> <br>
+        <label for="resultaat" class="score" id="Eindresultaat"></label> <br>
+    </div>
+    <div>
+        <label for="Zwart" class="settings" id="labelZwarteSpeler">Kies zwarte speler</label>
+        <select name="hall" id="keuzeSpelerZwart">
+            <option selected>Mens</option>
+            <option>Computer: niveau 1</option>
+        </select> <br> <br>
+        <label for="Wit" class="settings" id="labelWitteSpeler">Kies witte speler</label>
+        <select name="hall" id="keuzeSpelerWit">
+            <option>Mens</option>
+            <option selected>Computer: niveau 1</option>
+        </select> <br> <br>
+        <label for="bordGrootte" class="settings" id="bordGrootte">Kies spelbord</label>
+        <select name="hall" id="keuzeBordGrootte">
+            <option>6x6</option>
+            <option>6x8</option>
+            <option>6x10</option>
+            <option selected>8x8</option>
+            <option>8x10</option>
+            <option>10x10</option>
+        </select> <br> <br>
+        <button id="buttonOthello" value="Nieuw Spel">Start nieuw spel</button>
+    </div>
+</body>
+
+</html>

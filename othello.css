@@ -1,0 +1,34 @@
+div{
+    float: left;
+}
+.score {
+    font-size: 50px;
+    position: relative;
+    margin-right: 10px;
+}
+.aanzet {
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    margin-right: 10px;
+}
+#WitTekst{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#ZwartTekst{
+    margin-left: 10px;
+}
+#buttonOthello {
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
